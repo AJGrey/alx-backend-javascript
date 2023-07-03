@@ -1,1 +1,1 @@
- Js promises
+ JavaScript Promises

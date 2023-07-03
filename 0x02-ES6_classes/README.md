@@ -1,1 +1,1 @@
-Javascript classes
+JavaScript Classes training
