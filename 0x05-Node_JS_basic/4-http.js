@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = '127.0.01';
+const hostname = 'localhost';
 const port = 1245;
 
 // Create the HTTP server
@@ -16,7 +16,7 @@ const app = http.createServer((req, res) => {
 });
 
 // Listen on port 1245
-app.listen(1245);
+app.listen(port, hostname);
 
 // Export the app for external use
 module.exports = app;
